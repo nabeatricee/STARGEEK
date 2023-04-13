@@ -3,24 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.body-index{
-    background-image: url(/STARGEEK/img/image\ 16.png);
-    background-size: 100% 52%;
-    background-repeat: no-repeat;
+.body-index {
     background-color: #000000;
 }
 
 /*login*/
-.body-login{
-    background-image: url(/STARGEEK/img/image\ 16.png);
-    background-size: 100%
-    
+.body-login {
+    background-color: #000000;
 }
-.div-login{
+
+.div-login {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 90px;
@@ -89,15 +86,16 @@ body{
 }
 
 /*cadastro*/
-.body-cadastro{
-    background-image: url(/STARGEEK/img/image\ 16.png);
-    background-size: 100%;
+.body-cadastro {
+    background-color: #000000;
 }
-.div-cadastro{
+
+.div-cadastro {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 80px;
 }
+
 .divtudo-cadas {
     display: flex;
     flex-direction: column;
@@ -164,7 +162,7 @@ body{
     padding: 9.5px 20px;
 }
 
- .transparente{
+.transparente {
     border-bottom: 10px solid #282828;
 }
 
@@ -172,19 +170,178 @@ body{
     color: white;
     display: flex;
 }
-.div-inic02{
+
+.div-inic02 {
     display: flex;
     width: 50%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.grupo1{
+
+.grupo1 {
     width: 500px;
 }
+
 .div-inic3 {
     color: white;
 }
-.div-inic03{
-    flex-direction: row;
+
+.div-inic03 {
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-inic4 {
+    color: white;
+    display: flex;
+}
+
+.div-inic04 {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*página principal - header*/
+
+.body-principal {
+    background-color: #000000;
+}
+
+.cabecalho-in {
+    background-color: #3D0775;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho-in>nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho-in>nav>img {
+    padding: 5px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu>li {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu>li>a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.menu>li>a:hover {
+    color: #F8D625;
+}
+
+.botoes-menu {
+    margin: 30px;
+}
+
+.sair {
+    background-color: #150096;
+    color: rgb(254, 254, 254);
+    border: 2px solid #150096;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.sair:hover {
+    transition: 0.5s;
+    box-shadow: 0 1px 5px rgb(54, 54, 54);
+}
+
+.midia01 {
+    background-color: #150096;
+    color: rgb(254, 254, 254);
+    border: 2px solid #150096;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.midia01:hover {
+    transition: 0.5s;
+    box-shadow: 0 1px 5px rgb(54, 54, 54);
+}
+
+/*página inicial - avatar*/
+
+.div-inpg {
+    color: #ffffff;
+    border: 2px solid #7312C0;
+    box-shadow: 0 0 30px #8b10f0;
+    border-radius: 40px;
+    padding: 23px 20px;
+    display: flex;
+    width: 52%;
+    margin: 60px auto;
+}
+
+.divavatar {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    align-items: center;
+    justify-content: center;
+}
+
+.amarelo {
+    color: #F8D625;
+    margin-bottom: 20px;
+    margin-left: 50%;
+}
+.filme{
+    width: 150px;
+    height: 210px;
+    padding: 10px;
+}
+.div-filmes{
+    display: flex;
+    overflow: scroll;
+}
+.div-filmes::-webkit-scrollbar{
+    display: none;
+}
+.h3{
+    color: #ffffff;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+.musica{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.div-musica{
+    display: flex;
+    overflow: scroll;
+}
+.div-musica::-webkit-scrollbar{
+    display: none;
 }

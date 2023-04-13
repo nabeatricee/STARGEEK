@@ -1,17 +1,17 @@
-<svg width="710" height="762" viewBox="0 0 710 762" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="707" height="697" viewBox="0 0 707 697" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g filter="url(#filter0_f_223_134)">
-<ellipse cx="334.677" cy="381.039" rx="188.385" ry="198.3" transform="rotate(26.8738 334.677 381.039)" fill="url(#paint0_linear_223_134)"/>
+<ellipse cx="353.504" cy="348.381" rx="169.364" ry="164.173" transform="rotate(0.751973 353.504 348.381)" fill="url(#paint0_linear_223_134)"/>
 </g>
-<mask id="mask0_223_134" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="183" y="239" width="270" height="304">
-<path d="M288.307 240.739C311.952 254.448 339.553 245.292 350.399 239L357.85 244.464L385.667 256.137C397.986 259.316 406.198 266.734 408.765 270.046L419.693 288.425L452.974 339.092C442.244 341.873 419.03 362.935 408.765 373.118L401.81 381.81L397.34 378.333L398.085 403.418L399.575 449.614L400.569 464.02L404.046 543L379.458 539.523H369.771L360.582 540.516L321.091 539.523L254.033 540.516L235.654 542.007L239.627 459.301L241.118 376.346L234.66 381.562L228.203 374.111L215.784 364.176L183 340.333L224.229 278.987C229.991 267.264 238.551 260.359 242.111 258.373L288.307 240.739Z" fill="#D9D9D9"/>
+<mask id="mask0_223_134" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="223" y="184" width="270" height="304">
+<path d="M328.307 185.739C351.952 199.448 379.553 190.292 390.399 184L397.85 189.464L425.667 201.137C437.986 204.316 446.198 211.734 448.765 215.046L459.693 233.425L492.974 284.092C482.244 286.873 459.03 307.935 448.765 318.118L441.81 326.81L437.34 323.333L438.085 348.418L439.575 394.614L440.569 409.02L444.046 488L419.458 484.523H409.771L400.582 485.516L361.091 484.523L294.033 485.516L275.654 487.007L279.627 404.301L281.118 321.346L274.66 326.562L268.203 319.111L255.784 309.176L223 285.333L264.229 223.987C269.991 212.264 278.551 205.359 282.111 203.373L328.307 185.739Z" fill="#D9D9D9"/>
 </mask>
 <g mask="url(#mask0_223_134)">
-<rect x="158.909" y="233.039" width="317.909" height="317.909" fill="url(#pattern0)"/>
+<rect x="198.908" y="178.039" width="317.909" height="317.909" fill="url(#pattern0)"/>
 </g>
-<rect x="125" y="467" width="193" height="193" fill="url(#pattern1)"/>
-<rect x="335" y="439" width="183" height="208" fill="url(#pattern2)"/>
+<rect x="165" y="412" width="193" height="193" fill="url(#pattern1)"/>
+<rect x="375" y="384" width="183" height="208" fill="url(#pattern2)"/>
 <defs>
-<filter id="filter0_f_223_134" x="-39.8135" y="0.679382" width="748.98" height="760.719" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_f_223_134" x="0.140686" y="0.207397" width="706.727" height="696.348" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feGaussianBlur stdDeviation="92" result="effect1_foregroundBlur_223_134"/>
@@ -25,7 +25,7 @@
 <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image2_223_134" transform="matrix(0.0020202 0 0 0.00177739 0 -0.164744)"/>
 </pattern>
-<linearGradient id="paint0_linear_223_134" x1="334.677" y1="182.739" x2="334.677" y2="579.339" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_223_134" x1="353.504" y1="184.209" x2="353.504" y2="512.554" gradientUnits="userSpaceOnUse">
 <stop offset="0.242708" stop-color="#150096"/>
 <stop offset="0.95625" stop-color="#0273C5"/>
 </linearGradient>
