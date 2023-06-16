@@ -10,6 +10,9 @@ body {
 
 .body-index {
     background-color: #000000;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 1550px 695px;
 }
 
 /*login*/
@@ -84,7 +87,8 @@ body {
     transition: 0.5s;
     box-shadow: 0 1px 5px #000000;
 }
-hr{
+
+hr {
     margin-bottom: 20px;
 }
 
@@ -321,345 +325,413 @@ hr{
 
 /*página inicial -filmes, séries, música, produtos*/
 
-.filme{
+.filme {
     width: 150px;
     height: 210px;
     padding: 10px;
 }
-.div-filmes{
+
+.div-filmes {
     display: flex;
     overflow: scroll;
 }
-.div-filmes::-webkit-scrollbar{
+
+.div-filmes::-webkit-scrollbar {
     display: none;
 }
-.h3{
+
+.h3 {
     color: #ffffff;
     margin-left: 1%;
     margin-top: 2%;
 }
-.musica{
+
+.musica {
     width: 180px;
     height: 180px;
     border-radius: 50%;
     padding: 10px;
 }
 
-.div-musica{
+.div-musica {
     display: flex;
     overflow: scroll;
 }
-.div-musica::-webkit-scrollbar{
+
+.div-musica::-webkit-scrollbar {
     display: none;
 }
-.nome{
+
+.nome {
     color: #ffffff;
     text-align: center;
 }
 
 
 /*página inicial - gif*/
-.brid{
+.brid {
     transition: 1s;
 }
-.brid:hover{
+
+.brid:hover {
     content: url(/STARGEEK/img/gif/g-bridgerton.gif);
     width: 260px;
     height: 210px;
     transition: 1s;
 
 }
-.legalmente{
+
+.legalmente {
     transition: 1s;
 }
-.legalmente:hover{
+
+.legalmente:hover {
     content: url(/STARGEEK/img/gif/legalmenteloira.webp);
     width: 340px;
     height: 210px;
     transition: 1s;
 }
-.themenu{
+
+.themenu {
     transition: 1s;
 }
-.themenu:hover{
+
+.themenu:hover {
     content: url(/STARGEEK/img/gif/o\ menu.gif);
     width: 330px;
     height: 210px;
     transition: 1s;
 }
-.dezhomens{
+
+.dezhomens {
     transition: 1s;
 }
-.dezhomens:hover{
+
+.dezhomens:hover {
     content: url(/STARGEEK/img/gif/homem\ em\ 10.gif);
     width: 340px;
     height: 210px;
     transition: 1s;
 }
-.fall{
+
+.fall {
     transition: 1s;
 }
-.fall:hover{
+
+.fall:hover {
     content: url(/STARGEEK/img/gif/atriz\ da\ wandinha.gif);
     width: 300px;
     height: 210px;
     transition: 1s;
 }
-.xxx{
+
+.xxx {
     transition: 1s;
 }
-.xxx:hover{
+
+.xxx:hover {
     content: url(/STARGEEK/img/gif/xxxmarca.webp);
     width: 245px;
     height: 210px;
     transition: 1s;
 }
-.black{
+
+.black {
     transition: 1s;
 }
-.black:hover{
+
+.black:hover {
     content: url(/STARGEEK/img/gif/adão\ negro.gif);
     width: 365px;
     height: 210px;
     transition: 1s;
 }
-.pearl{
+
+.pearl {
     transition: 1s;
 }
-.pearl:hover{
+
+.pearl:hover {
     content: url(/STARGEEK/img/gif/pearl-movie.gif);
     width: 320px;
     height: 210px;
     transition: 1s;
 }
-.shining{
+
+.shining {
     transition: 1s;
 }
-.shining:hover{
+
+.shining:hover {
     content: url(/STARGEEK/img/gif/theshining.gif);
     width: 320px;
     height: 210px;
     transition: 1s;
 }
-.casamento{
+
+.casamento {
     transition: 1s;
 }
-.casamento:hover{
+
+.casamento:hover {
     content: url(/STARGEEK/img/gif/jenniferlopez.gif);
     width: 210px;
     height: 210px;
     transition: 1s;
 }
-.janela{
+
+.janela {
     transition: 1s;
 }
-.janela:hover{
+
+.janela:hover {
     content: url(/STARGEEK/img/gif/janela.gif);
     width: 210px;
     height: 210px;
     transition: 1s;
 }
-.encanto{
+
+.encanto {
     transition: 1s;
 }
-.encanto:hover{
+
+.encanto:hover {
     content: url(/STARGEEK/img/gif/encanto.webp);
     width: 260px;
     height: 210px;
     transition: 1s;
 }
 
-.provisoria{
+.provisoria {
     transition: 1s;
 }
-.provisoria:hover{
+
+.provisoria:hover {
     content: url(/STARGEEK/img/gif/provisoria.gif);
     width: 260px;
     height: 210px;
     transition: 1s;
 }
-.parasita{
+
+.parasita {
     transition: 1s;
 }
-.parasita:hover{
+
+.parasita:hover {
     content: url(/STARGEEK/img/gif/parasita.gif);
     width: 260px;
     height: 210px;
     transition: 1s;
 }
-.ruido{
+
+.ruido {
     transition: 1s;
 }
-.ruido:hover{
+
+.ruido:hover {
     content: url(/STARGEEK/img/gif/ruidobranco.gif);
     width: 300px;
     height: 210px;
     transition: 1s;
 }
-.antes{
+
+.antes {
     transition: 1s;
 }
-.antes:hover{
+
+.antes:hover {
     content: url(/STARGEEK/img/gif/enolaholmes.gif);
     width: 300px;
     height: 210px;
     transition: 1s;
 }
 
-.universo:hover{
+.universo:hover {
     content: url(/STARGEEK/img/gif/feelthe.gif);
     width: 300px;
     height: 210px;
     transition: 1s;
 }
- /*série*/
- 
- .gatunas{
+
+/*série*/
+
+.gatunas {
     transition: 1s;
 }
-.gatunas:hover{
+
+.gatunas:hover {
     content: url(/STARGEEK/img/gif/gatunas.gif);
     width: 300px;
     height: 210px;
     transition: 1s;
 }
- .anne{
+
+.anne {
     transition: 1s;
 }
-.anne:hover{
+
+.anne:hover {
     content: url(/STARGEEK/img/gif/anne.gif);
     width: 300px;
     height: 210px;
     transition: 1s;
 }
- .loveto{
+
+.loveto {
     transition: 1s;
 }
-.loveto:hover{
+
+.loveto:hover {
     content: url(/STARGEEK/img/gif/loveto.webp);
     width: 300px;
     height: 210px;
     transition: 1s;
 }
- .euphoria{
+
+.euphoria {
     transition: 1s;
 }
-.euphoria:hover{
+
+.euphoria:hover {
     content: url(/STARGEEK/img/gif/euphoria.gif);
     width: 300px;
     height: 210px;
     transition: 1s;
 }
- .reacher{
+
+.reacher {
     transition: 1s;
 }
-.reacher:hover{
+
+.reacher:hover {
     content: url(/STARGEEK/img/gif/reacher.gif);
     width: 220px;
     height: 210px;
     transition: 1s;
 }
- .book{
+
+.book {
     transition: 1s;
 }
-.book:hover{
+
+.book:hover {
     content: url(/STARGEEK/img/gif/romanceisbonus.gif);
     width: 300px;
     height: 210px;
     transition: 1s;
 }
- .ginny{
+
+.ginny {
     transition: 1s;
 }
-.ginny:hover{
+
+.ginny:hover {
     content: url(/STARGEEK/img/gif/ginny.gif);
     width: 300px;
     height: 210px;
     transition: 1s;
 }
- .you{
+
+.you {
     transition: 1s;
 }
-.you:hover{
+
+.you:hover {
     content: url(/STARGEEK/img/gif/you.gif);
     width: 300px;
     height: 210px;
     transition: 1s;
 }
- .blood{
+
+.blood {
     transition: 1s;
 }
-.blood:hover{
+
+.blood:hover {
     content: url(/STARGEEK/img/gif/bloodand.gif);
     width: 300px;
     height: 210px;
     transition: 1s;
 }
- .lucifer{
+
+.lucifer {
     transition: 1s;
 }
-.lucifer:hover{
+
+.lucifer:hover {
     content: url(/STARGEEK/img/gif/lucifer.gif);
     width: 300px;
     height: 210px;
     transition: 1s;
 }
 
-.of:hover{
+.of:hover {
     content: url(/STARGEEK/img/gif/thelast.gif);
     width: 300px;
     height: 210px;
     transition: 1s;
 }
- .greys{
+
+.greys {
     transition: 1s;
 }
-.greys:hover{
+
+.greys:hover {
     content: url(/STARGEEK/img/gif/greys.webp);
     width: 300px;
     height: 210px;
     transition: 1s;
 }
- .out{
+
+.out {
     transition: 1s;
 }
-.out:hover{
+
+.out:hover {
     content: url(/STARGEEK/img/gif/outlan.webp);
     width: 260px;
     height: 210px;
     transition: 1s;
 }
-.invisivel{
+
+.invisivel {
     transition: 1s;
 }
-.invisivel:hover{
+
+.invisivel:hover {
     content: url(/STARGEEK/img/gif/cidade\ invisivel.gif);
     width: 300px;
     height: 210px;
     transition: 1s;
 }
-.wandinh{
+
+.wandinh {
     transition: 1s;
 }
-.wandinh:hover{
+
+.wandinh:hover {
     content: url(/STARGEEK/img/gif/wandinha.gif);
     width: 210px;
     height: 210px;
     transition: 1s;
 }
-.naoolhe{
+
+.naoolhe {
     transition: 1s;
 }
-.naoolhe:hover{
+
+.naoolhe:hover {
     content: url(/STARGEEK/img/gif/naoolhe.gif);
     width: 300px;
     height: 210px;
     transition: 1s;
 }
-.derepente{
+
+.derepente {
     transition: 1s;
 }
-.derepente:hover{
+
+.derepente:hover {
     content: url(/STARGEEK/img/gif/30.gif);
     width: 300px;
     height: 210px;
@@ -668,109 +740,132 @@ hr{
 
 /*cantores*/
 
-.arianagrande{
+.arianagrande {
     transition: 1s;
 }
-.arianagrande:hover{
+
+.arianagrande:hover {
     content: url(/STARGEEK/img/cantores/arianagrandee.gif);
     width: 210px;
     height: 200px;
     transition: 1s;
 }
-.jao{
+
+.jao {
     transition: 1s;
 }
-.jao:hover{
+
+.jao:hover {
     content: url(/STARGEEK/img/cantores/jaao.gif);
     width: 210px;
     height: 200px;
     transition: 1s;
 }
-.rihanna{
+
+.rihanna {
     transition: 1s;
 }
-.rihanna:hover{
+
+.rihanna:hover {
     content: url(/STARGEEK/img/cantores/rihannaaa.gif.crdownload);
     width: 210px;
     height: 200px;
     transition: 1s;
 }
-.luisa{
+
+.luisa {
     transition: 1s;
 }
-.luisa:hover{
+
+.luisa:hover {
     content: url(/STARGEEK/img/cantores/luisa-sonza.gif);
     width: 210px;
     height: 200px;
     transition: 1s;
 }
-.beyonce{
+
+.beyonce {
     transition: 1s;
 }
-.beyonce:hover{
+
+.beyonce:hover {
     content: url(/STARGEEK/img/cantores/beyonceee.jpg);
     width: 210px;
     height: 200px;
     transition: 1s;
 }
-.anittaa{
+
+.anittaa {
     transition: 1s;
 }
-.anittaa:hover{
+
+.anittaa:hover {
     content: url(/STARGEEK/img/cantores/anitta-girl-from-rio-anitta.gif);
     width: 210px;
     height: 200px;
     transition: 1s;
 }
-.seujorge{
+
+.seujorge {
     transition: 1s;
 }
-.seujorge:hover{
+
+.seujorge:hover {
     content: url(/STARGEEK/img/cantores/seujorgee.gif);
     width: 210px;
     height: 200px;
     transition: 1s;
 }
-.shawnmendes{
+
+.shawnmendes {
     transition: 1s;
 }
-.shawnmendes:hover{
+
+.shawnmendes:hover {
     content: url(/STARGEEK/img/cantores/shawnmendese.jpg);
     width: 210px;
     height: 200px;
     transition: 1s;
 }
-.plattorvittar{
+
+.plattorvittar {
     transition: 1s;
 }
-.pabllovittar:hover{
+
+.pabllovittar:hover {
     content: url(/STARGEEK/img/cantores/pablloovittar.gif);
     width: 210px;
     height: 200px;
     transition: 1s;
 }
-.bruno{
+
+.bruno {
     transition: 1s;
 }
-.bruno:hover{
+
+.bruno:hover {
     content: url(/STARGEEK/img/cantores/brunoo.gif);
     width: 210px;
     height: 200px;
     transition: 1s;
 }
-.taylor:hover{
+
+.taylor:hover {
     transition: 1s;
 }
-.taylor:hover{
+
+.taylor:hover {
     content: url(/STARGEEK/img/cantores/taylorr.jpg);
     width: 210px;
     height: 200px;
     transition: 1s;
 }
-.selena{
+
+.selena {
     transition: 1s;
 }
-.selena:hover{
+
+.selena:hover {
     content: url(/STARGEEK/img/cantores/selenaagomez.gif);
     width: 210px;
     height: 200px;
@@ -780,17 +875,23 @@ hr{
 /*cadastro midia*/
 
 .body-midia {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 1550px 750px;
     background-color: #000000;
 }
-.logo-midia{
+
+.logo-midia {
     height: 150px;
     margin-top: -90px;
 }
+
 .div-midia {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 80px;
 }
+
 .divtudo-midia {
     display: flex;
     flex-direction: column;
@@ -801,7 +902,8 @@ hr{
     background-color: #362987;
     border-radius: 10px;
 }
-.divtudo-midia > div{
+
+.divtudo-midia>div {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -813,7 +915,8 @@ hr{
     padding: 10px;
     margin-top: 10px;
 }
-.entrar-midia{
+
+.entrar-midia {
     background-color: #150096;
     color: rgb(254, 254, 254);
     border: 2px solid #150096;
@@ -830,11 +933,196 @@ hr{
     box-shadow: 0 0 5px rgb(37, 37, 37);
 }
 
-#story{
+#story {
     margin-top: 10px;
     height: 205px;
 }
-.maisais{
+
+.maisais {
     width: 210px;
     height: 210px;
+}
+
+.divv-midia {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 500px;
+    height: 280px;
+    margin: 0 auto;
+    background-color: #362987;
+    border-radius: 10px;
+}
+
+.divv-midia>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*minha lista*/
+
+.jubalu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgpp {
+    width: 150px;
+    height: 210px;
+    padding: 10px;
+}
+
+@media (max-width:500px) {
+    /*página principal*/
+    .cabecalho-in {
+        flex-direction: column;
+    }
+
+    .menu>li>a {
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    .botoes-menu {
+        margin: 10px;
+    }
+
+    .cabecalho-in>nav>img {
+        display: none;
+    }
+
+    .div-inpg {
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+
+    .divavatar {
+        width: 98%;
+        font-size: 11.4px;
+    }
+
+    .div-avatar>img {
+        content: url(/STARGEEK/img/avatarzinho.png);
+        width: 100%;
+    }
+
+    .midia01 {
+        padding: 3px 10px;
+    }
+
+    .sair {
+        padding: 3px 10px;
+    }
+/*página index*/
+    .logo-inic {
+        height: 65px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+
+    .botao-in {
+        padding: 5px 10px;
+    }
+
+    .div-inic>img {
+        height: 200px;
+    }
+
+    .div-inic {
+        margin: 10px;
+    }
+    .caixas-inic{
+        width: 250px;
+    }
+    .botao-inic{
+        padding: 9px 10px;
+    }
+.div-inic2{
+    flex-direction: column;
+    align-items: center;
+}
+.div-inic02{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: -20px;
+    margin-top: 20px;
+
+}
+.div-inic3{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.div-inic03{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: -20px;
+    margin-top: 20px;
+
+
+}
+.div-inic4{
+    flex-direction: column;
+    align-items: center;
+}
+.div-inic04{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: -20px;
+    margin-top: 20px;
+
+}
+.grupo1{
+    height: 400px;
+    margin-left: -37px;
+}
+.grupo2{
+    height: 400px;
+}
+/*login*/
+.logo{
+    height: 140px;
+}
+.divtudo{
+    width: 365px;
+    height: 300px;
+}
+.body-cadastro > a > img{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 35px;
+}
+/*cadastro*/
+.logo{
+    height: 140px;
+}
+.divtudo-cadas{
+    width: 365px;
+    height: 380px;
+}
+.body-login > a > img{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 35px;
+}
+/*mídia*/
+.body-midia > a > img{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 35px;
+}
+.logo-midia{
+    height: 120px;
+}
+.divtudo-midia{
+    width: 365px;
+    height: 480px;
+}
+.h1{
+    font-size: 30px;
+}
+.grupo33{
+   display: none;
+}
 }

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STARGEEK</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="/STARGEEK/js/cadastro.js"></script>
     <link rel="shortcut icon" href="/STARGEEK/img/Group 9.png" type="image/x-icon">
 </head>
 
@@ -16,14 +17,14 @@
     <img src="./img/logo2.png" class="logo">
         <div class="divtudo-cadas">
             <h1 class="h1">Cadastro</h1>
-            <input type="text" placeholder="Nome" class="caixas-cadas">
-            <input type="text" placeholder="Email" class="caixas-cadas">
-            <input type="password" placeholder="Senha" class="caixas-cadas">
-            <input type="password" placeholder="Confirme a senha" class="caixas-cadas">
+            <input type="text" placeholder="Nome" class="caixas-cadas" id="nome">
+            <input type="text" placeholder="Email" class="caixas-cadas" id="email">
+            <input type="password" placeholder="Senha" class="caixas-cadas" id="senha1">
+            <input type="password" placeholder="Confirme a senha" class="caixas-cadas" id="senha2">
             <div class="divbotao-cadas">
                 <hr>
-                <a href="/STARGEEK/paginaprincipal.html" class="entrar">Entrar</a>
-                <a href="#" class="cadastrar">Cadastrar</a>
+                <a href="/STARGEEK/login.html" class="entrar">Entrar</a>
+                <a href="#" onclick="botaoCadast()" class="cadastrar">Cadastrar</a>
             </div>
         </div>
         
